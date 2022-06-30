@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wuzx-tools</artifactId>
+        <groupId>com.wuzx</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <packaging>pom</packaging>
+    <modules>
+        <module>common-log</module>
+        <module>access-log-starter</module>
+        <module>audit-log-starter</module>
+        <module>operate-log-starter</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>wuzx-log-starter</artifactId>
+
+
+</project>

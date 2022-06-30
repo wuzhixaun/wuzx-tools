@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "log.operate",
+      "type": "com.wuzx.operate.properties.OperateLogProperties",
+      "sourceType": "com.yh.operate.properties.OperateLogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "log.operate.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启访问日志",
+      "sourceType": "com.wuzx.operate.properties.OperateLogProperties"
+    }
+  ],
+  "hints": []
+}

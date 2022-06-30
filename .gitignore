@@ -1,0 +1,6 @@
+# Project exclude paths
+/weixin-robot-spring-boot-starter/target/
+/wuzx-log-starter/access-log-starter/target/
+/wuzx-log-starter/audit-log-starter/target/
+/wuzx-log-starter/common-log/target/
+/wuzx-log-starter/operate-log-starter/target/

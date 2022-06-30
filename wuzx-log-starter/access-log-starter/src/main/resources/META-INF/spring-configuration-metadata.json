@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "log.access",
+      "type": "com.wuzx.accesslog.properties.AccessLogProperties",
+      "sourceType": "com.wuzx.accesslog.properties.AccessLogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "log.access.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启访问日志",
+      "sourceType": "com.wuzx.accesslog.properties.AccessLogProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "log.access.ignore-url-patterns",
+      "type": "java.util.List<java.lang.String>",
+      "description": "忽略的Url匹配规则，Ant风格",
+      "sourceType": "com.wuzx.accesslog.properties.AccessLogProperties"
+    }
+  ],
+  "hints": []
+}

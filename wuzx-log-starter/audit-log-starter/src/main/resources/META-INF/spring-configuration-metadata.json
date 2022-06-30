@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "log.audit",
+      "type": "com.wuzx.auditlog.properties.AuditProperties",
+      "sourceType": "com.wuzx.auditlog.properties.AuditProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "log.audit.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wuzx.auditlog.properties.AuditProperties"
+    },
+    {
+      "name": "log.audit.listen-tables",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.wuzx.auditlog.properties.AuditProperties"
+    },
+    {
+      "name": "log.audit.split",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wuzx.auditlog.properties.AuditProperties"
+    }
+  ],
+  "hints": []
+}
