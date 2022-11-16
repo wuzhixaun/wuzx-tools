@@ -1,0 +1,89 @@
+{
+  "groups": [
+    {
+      "name": "uchain.websocket",
+      "type": "com.wuzx.msg.server.properties.WebSocketProperties",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.concurrent",
+      "type": "com.wuzx.msg.server.handler.ConcurrentWebSocketSessionOptions",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "uchain.websocket.allowed-origin-patterns",
+      "type": "java.lang.String[]",
+      "description": "允许跨域来源的匹配规则",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.allowed-origins",
+      "type": "java.lang.String[]",
+      "description": "允许跨域的源",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.concurrent.buffer-size-limit",
+      "type": "java.lang.Integer",
+      "description": "发送消息缓冲上限 (byte)",
+      "sourceType": "com.wuzx.msg.server.handler.ConcurrentWebSocketSessionOptions"
+    },
+    {
+      "name": "uchain.websocket.concurrent.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否在多线程环境下进行发送",
+      "sourceType": "com.wuzx.msg.server.handler.ConcurrentWebSocketSessionOptions"
+    },
+    {
+      "name": "uchain.websocket.concurrent.overflow-strategy",
+      "type": "org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecorator$OverflowStrategy",
+      "description": "溢出时的执行策略",
+      "sourceType": "com.wuzx.msg.server.handler.ConcurrentWebSocketSessionOptions"
+    },
+    {
+      "name": "uchain.websocket.concurrent.send-time-limit",
+      "type": "java.lang.Integer",
+      "description": "发送时间的限制（ms）",
+      "sourceType": "com.wuzx.msg.server.handler.ConcurrentWebSocketSessionOptions"
+    },
+    {
+      "name": "uchain.websocket.heartbeat",
+      "type": "java.lang.Boolean",
+      "description": "心跳处理",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.map-session",
+      "type": "java.lang.Boolean",
+      "description": "是否开启对session的映射记录",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.message-distributor",
+      "type": "com.wuzx.msg.server.properties.WebSocketProperties$MessageDistributorTypeEnum",
+      "description": "消息分发器：local | redis，默认 local, 如果自定义的话，可以配置为其他任意值",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.path",
+      "type": "java.lang.String",
+      "description": "路径: 无参: \/ws 有参: PathVariable: 单参: \/ws\/{test} 多参: \/ws\/{test1}\/{test2} query: \/ws?uid=1&name=test",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.support-partial-messages",
+      "type": "java.lang.Boolean",
+      "description": "是否支持部分消息",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    },
+    {
+      "name": "uchain.websocket.with-sockjs",
+      "type": "java.lang.Boolean",
+      "description": "是否开启 sockJs 支持",
+      "sourceType": "com.wuzx.msg.server.properties.WebSocketProperties"
+    }
+  ],
+  "hints": []
+}

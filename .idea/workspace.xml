@@ -4,11 +4,220 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="825922ff-59ab-4996-8af3-552938a709a5" name="Changes" comment="" />
+    <list default="true" id="825922ff-59ab-4996-8af3-552938a709a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/alias/TableAlias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/alias/TableAliasHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/alias/TableAliasNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/conditions/query/LambdaAliasQueryWrapperX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/conditions/query/LambdaQueryWrapperX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/conditions/query/OtherTableColumnAliasFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/config/FillMetaObjectHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/constan/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/domain/PageParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/domain/PageParamRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/domain/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/domain/SelectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/domain/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/domain/entity/LogicDeletedBaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/injector/CustomSqlInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/mapper/ExtendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/methods/BaseInsertBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/methods/InsertBatchSomeColumnByCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/methods/InsertIgnoreByBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/methods/InsertOrUpdateByBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/methods/InsertOrUpdateFieldByBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/service/ExtendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/service/impl/ExtendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/toolkit/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/toolkit/WrappersX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/main/java/com/wuzx/mybatis/plus/type/EnumNameTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-starter/src/test/java/com/wuzx/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/AesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/ByteGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/PKCS7Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/SHA1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/WXBizMsgCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/WxaBizDataCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/XMLParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qq/weixin/mp/aes/必读.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/AccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/AccessTokenApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/AgentApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ApiConfigKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ApiResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ChatApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ConBatchApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ConDepartmentApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ConTagApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ConUserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/JsTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/JsTicketApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/MenuApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/OAuthApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/ReturnCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/SendMessageApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/media/MediaApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/media/MediaArticles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/media/MediaFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/media/MediaMpNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/api/media/MpNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/cache/DefaultAccessTokenCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/cache/IAccessTokenCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/jfinal/MsgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/jfinal/MsgControllerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/kit/IpKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/kit/MsgEncryptKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/kit/ParaMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/kit/PaymentKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/kit/SignatureCheckKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/kit/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/ClickButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/ComButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/MenuManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/MenuType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/OtherButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/menu/ViewButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/InMsgParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/ChatBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/ChatReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/FileChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/FileChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/ImageChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/ImageChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/TextChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/TextChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/VocieChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/chat/VoiceChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InImageMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InLinkMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InLocationMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InNotDefinedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InNotDefinedMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InShortVideoMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InTextMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InVideoMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/InVoiceMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/BatchJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/EventInMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/InEnterAgentEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/InFollowEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/InJobEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/InLocationEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/InMenuEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/InQrCodeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/event/ScanCodeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/in/speech_recognition/InSpeechRecognitionResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/OutImageMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/OutMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/OutMusicMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/OutNewsMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/OutTextMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/OutVideoMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/out/OutVoiceMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/MpArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeBaseMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeFileMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeImageMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeMpNewsMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeNewsMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeTextMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeVideoMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/QiYeVoiceMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/msg/send/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/Base64Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/Charsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/HttpKitExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/IOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/PaymentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/RetryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/XmlHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/qyweixin/sdk/utils/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/java/com/wuzx/weixin/test/QyWeixinApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qyweixin-starter/src/test/java/com/wuzx/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/config/LocalMessageDistributorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/config/WebSocketAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/config/WebSocketHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/constant/MessageDistributorTypeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/constant/WebSocketConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/distribute/AbstractMessageDistributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/distribute/LocalMessageDistributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/distribute/MessageDistributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/exception/ErrorJsonMessageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/handler/ConcurrentWebSocketSessionOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/handler/CustomWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/handler/JsonMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/handler/PingJsonMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/handler/PlanTextMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/holder/JsonMessageHandlerHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/holder/JsonMessageHandlerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/message/JsonWebSocketMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/message/MessageDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/message/PingJsonWebSocketMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/message/PongJsonWebSocketMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/properties/WebSocketProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/session/DefaultWebSocketSessionStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/session/SessionKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/session/UserSessionKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/session/WebSocketSessionStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/socket/MapSessionWebSocketHandlerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/socket/SockJsServiceConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/socket/UserAttributeHandshakeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/java/com/wuzx/server/socket/WebSocketMessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/resources/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket-starter/src/test/java/com/wuzx/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/constant/AnnouncementStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/constant/BooleanEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/constant/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/constant/NotifyChannelEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/constant/NotifyRecipientFilterTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/constant/UserAnnouncementStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/dto/AnnouncementDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/entity/Announcement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/entity/UserMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/pojo/AnnouncementNotifyInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/pojo/MessageNotifyInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/pojo/NotifyInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/qo/AnnouncementQO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/qo/UserMessageQO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/qo/UserQO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/vo/AnnouncementPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/main/java/com/wuzx/msg/vo/UserMessagePageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/msg-pojo/src/test/java/com/wuzx/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuzx-msg/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="3791e89b-a52d-46fc-b792-a643bd789d32" />
@@ -25,6 +234,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2A139vCHxUeKW8ds5pEAIe7fwHz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -33,8 +243,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/wuzx-tools/wuzx-log-starter/operate-log-starter/src/main/resources",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "D:/IdeaProject/wuzx-tools/wuzx-msg/msg-pojo/src/main/java/com/wuzx",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -43,13 +253,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\wuzx-tools\wuzx-log-starter\operate-log-starter\src\main\resources" />
-      <recent name="D:\IdeaProject\wuzx-tools\wuzx-log-starter\operate-log-starter\src\main\java\com\wuzx" />
-      <recent name="D:\IdeaProject\wuzx-tools\wuzx-log-starter\audit-log-starter\src\main\resources" />
-      <recent name="D:\IdeaProject\wuzx-tools\wuzx-log-starter\audit-log-starter\src\main\java\com\wuzx" />
-      <recent name="D:\IdeaProject\wuzx-tools\wuzx-log-starter\access-log-starter\src\main\resources\META-INF" />
+      <recent name="D:\IdeaProject\wuzx-tools\wuzx-msg\msg-pojo\src\main\java\com\wuzx" />
+      <recent name="D:\IdeaProject\wuzx-tools\qyweixin-starter\src\main" />
+      <recent name="D:\IdeaProject\wuzx-tools\qyweixin-starter\src\main\java\com\wuzx\weixin" />
+      <recent name="D:\IdeaProject\wuzx-tools\websocket-starter\src\main" />
+      <recent name="D:\IdeaProject\wuzx-tools\websocket-starter\src\main\java\com\wuzx" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -61,6 +274,15 @@
       <command value="mvn clean compile" />
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="UchainMsgServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msg-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yh.msg.UchainMsgServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,11 +293,23 @@
       <updated>1654163117326</updated>
       <workItem from="1654163119275" duration="1042000" />
       <workItem from="1655801341701" duration="4872000" />
-      <workItem from="1656578460217" duration="1427000" />
+      <workItem from="1656578460217" duration="1649000" />
+      <workItem from="1668580885209" duration="1442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
